@@ -8,7 +8,6 @@ class GoatCorral extends React.Component {
     const { goats } = this.props;
     const makeGoats = goats.map(goat => (
       <h2>{goat.name}</h2>
-      // <Goat goat={goat} />
     ));
 
     return (
