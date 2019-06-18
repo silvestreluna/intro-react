@@ -1,7 +1,7 @@
 import React from 'react';
 
 import goats from './goats';
-
+import GoatCorral from '../components/GoatCorral/GoatCorral';
 import './App.scss';
 
 
@@ -23,7 +23,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div>Goat Yoga</div>
-      {/* <GoatCorral goats={goats}/> */}
+      <GoatCorral goats={goats}/>
       </div>
     );
   }
