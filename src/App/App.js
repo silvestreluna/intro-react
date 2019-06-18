@@ -6,7 +6,7 @@ import './App.scss';
 
 
 class App extends React.Component {
-  // This is where we do axis call to get data.  - Anything that modifies states
+  // This is where we do axis call to get data.  - Anything that modifies   states
   state = {
     goats: [],
   }
